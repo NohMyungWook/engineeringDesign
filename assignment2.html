@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        header{
+            text-align: center;
+            height: 50px;
+            background-color: rgb(237, 147, 255);
+        }
+        aside{
+            width: 30%;
+            height: 400px;
+            float: left;
+            background-color: rgb(255, 196, 87);
+        }
+        #wrap{
+            width: 70%;
+            height: 400px;
+            float: right;
+            background-color: yellow;
+        }
+        footer{
+            text-align: center;
+            color: white;
+            width: 100%;
+            background-color: rgb(179, 50, 50);
+        }
+
+        img{
+            width: 50%;
+        }
+        h2, section > article{
+            margin-left: 30px;
+        }
+        .who{
+            text-align: center;
+        }
+        ul{
+            margin-left: 50px;
+        }
+    </style>
+
+    <title>My Blog Page</title>
+</head>
+<body>
+    <header>
+        <h1>My Blog Page</h1>
+    </header>
+    <aside>
+        <h2>Links</h2>
+        <nav>
+            <ul>
+                <li><a href="https://www.w3c.org">W3C</a></li>
+                <li><a href="http://www.mozilla.or.kr">MOZILLA</a></li>
+                <li><a href="https://htmldog.com">HTML Dogs</a></li>
+            </ul>
+        </nav>
+        <div class="who">
+            <img src="people.png" alt=""><br>
+            노명욱
+        </div>
+    </aside>
+    <article id="wrap">
+        <section>
+            <h2>Semantic Tags</h2>
+            <article>
+                시멘틱 요소(Semantic elements)들은 브라우저에게 요소의 의미나 목적을 정확하게 알려주는 요소이다.
+            </article>
+        </section>
+        <section>
+            <h2>div와 span</h2>
+            <article>
+                div는 "divide"의 약자로서 페이지를 논리적인 섹션으로 분리하는데 사용되는 태그이다. span 요소는 인라인 요소로서 텍스트를 위한 컨테이너로 사용할 수 있다.
+            </article>
+        </section>
+    </article>
+    <footer>
+        <p>Copyright (c) 2021 NOH</p>
+    </footer>
+</body>
+</html>
